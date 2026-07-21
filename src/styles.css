@@ -4,8 +4,6 @@
 
 @import 'tw-animate-css';
 
-@custom-variant dark (&:is(.dark *));
-
 :root {
   --background: #f7f5ff;
   --foreground: #111111;
@@ -50,7 +48,8 @@
   --brand-secondary: #6d28d9;
 }
 
-.dark {
+@media (prefers-color-scheme: dark) {
+  :root {
   --background: #050505;
   --foreground: #f9fafb;
   --card: #0a0a0a;
@@ -92,6 +91,7 @@
   --tracking-normal: -0.02em;
 
   --brand-secondary: #8b5cf6;
+  }
 }
 
 @theme inline {

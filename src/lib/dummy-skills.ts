@@ -1,0 +1,67 @@
+export const dummySkills: SkillRecord[] = [
+	{
+		id: "skl_01hqrt9x2n4k8m3p7v",
+		title: "PDF Form Filler",
+		slug: "pdf-form-filler",
+		description:
+			"Detects fields in PDF documents and fills them from structured input, producing a flattened, ready-to-sign file.",
+		category: "Documents",
+		tags: ["pdf", "automation", "forms"],
+		installCommand: "npx skild add pdf-form-filler",
+		createdAt: "2026-07-18T09:24:00.000Z",
+		authorClerkId: "user_2hK9fLpQrStUvWxYz01",
+		authorEmail: "maya.rivera@example.com",
+	},
+	{
+		id: "skl_01hqrtb4m7q2j9d5c8",
+		title: "SQL Query Explainer",
+		slug: "sql-query-explainer",
+		description:
+			"Parses a SQL statement and returns a plain-language explanation of what it does, including joins, filters, and side effects.",
+		category: "Databases",
+		tags: ["sql", "analysis", "developer-tools"],
+		installCommand: "npx skild add sql-query-explainer",
+		createdAt: "2026-07-15T14:02:30.000Z",
+		authorClerkId: "user_2hL3aBcDeFgHiJkLm45",
+		authorEmail: "devon.park@example.com",
+	},
+	{
+		id: "skl_01hqrtc8p1w6r3f0y2",
+		title: "Changelog Generator",
+		slug: "changelog-generator",
+		description:
+			"Reads commit history between two refs and drafts a grouped, human-readable changelog with semantic version suggestions.",
+		category: "Developer Tools",
+		tags: ["git", "release", "documentation"],
+		installCommand: "npx skild add changelog-generator",
+		createdAt: "2026-07-11T20:47:12.000Z",
+		authorClerkId: null,
+		authorEmail: null,
+	},
+	{
+		id: "skl_01hqrtd2k9x4n7b6s3",
+		title: "Invoice Extractor",
+		slug: "invoice-extractor",
+		description:
+			"Extracts line items, totals, and vendor details from scanned or digital invoices into normalized JSON.",
+		category: "Finance",
+		tags: ["ocr", "extraction", "accounting"],
+		installCommand: "npx skild add invoice-extractor",
+		createdAt: "2026-07-08T06:15:44.000Z",
+		authorClerkId: "user_2hM7cDeFgHiJkLmNo89",
+		authorEmail: "sasha.kim@example.com",
+	},
+	{
+		id: "skl_01hqrte6t3z8v2a1q7",
+		title: "Meeting Note Summarizer",
+		slug: "meeting-note-summarizer",
+		description:
+			"Turns raw meeting transcripts into concise summaries with action items, owners, and follow-up dates.",
+		category: "Productivity",
+		tags: ["summarization", "meetings", "nlp"],
+		installCommand: "npx skild add meeting-note-summarizer",
+		createdAt: "2026-07-02T11:38:05.000Z",
+		authorClerkId: "user_2hN1eFgHiJkLmNoPq23",
+		authorEmail: "leo.tanaka@example.com",
+	},
+];
